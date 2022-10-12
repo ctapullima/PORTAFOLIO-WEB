@@ -1,11 +1,51 @@
-.body{
+.body {
   background-color: #20232a;
   color: white;
   font-family: monospace;
   margin: 0;
 }
-.header 
-.nav
-.container 
-.nav__logo 
-.menu__link
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.nav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.elements {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav__logo {
+  display: block;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+.menu {
+  display: flex;
+  gap: 16px ;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu__link {
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 0.25s;
+}
+.menu__link:hover {
+  color: #61dafb;
+}

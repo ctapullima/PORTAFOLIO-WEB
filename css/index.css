@@ -49,3 +49,17 @@
 .menu__link:hover {
   color: #61dafb;
 }
+
+.section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.section--hero {
+  display: flex;
+  align-items: center;
+  background-image: url("https://i.postimg.cc/7PJV8Dp8/react-01-01-wpo.webp");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+}

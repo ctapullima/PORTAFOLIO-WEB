@@ -2,11 +2,12 @@
     display: flex;
     gap: 0.5rem;
 }
+
 .button {
-    background-color: #61dafb;
-    border: 0.0625rem solid#61dafb;
+    background-color: var(--primary-theme-color);
+    border: 0.0625rem solid var(var(--primary-theme-color));
     border-radius: 0.5rem;
-    color: black;
+    color: var(--primary-text-color);
     font-weight: 700;
     font-size: 0.875rem;
     font-family: monospace;
@@ -19,7 +20,8 @@
     .buttons {
         display: flex;
         gap: 0.5rem;
-    } 
+    }
+
     .button {
         font-size: 1rem;
     }

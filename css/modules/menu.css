@@ -7,12 +7,12 @@
 }
 
 .menu__link {
-    color: white;
+    color: var(--primary-text-color);
     font-weight: 700;
     text-decoration: none;
     transition: color 0.25s;
 }
 
 .menu__link:hover {
-    color: #61dafb;
+    color: var(--primary-highlight-color);
 }

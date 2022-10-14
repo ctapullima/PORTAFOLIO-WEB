@@ -1,0 +1,10 @@
+:root {
+    --primary-theme-color: #20232a;
+    --primary-shadow-color: #ffffff80;
+    --reverse-primary-shadow-color: #00000080;
+    --reverse-secondary-shadow-color: #00000040;
+    --primary-text-color: #fff;
+    --primary-highlight-color: #61dafd;
+    --primary-font-family: monospace;
+
+}

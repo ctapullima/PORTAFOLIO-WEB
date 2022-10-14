@@ -1,17 +1,17 @@
 .card {
     border-radius: 0.5rem;
-    box-shadow: 0 0 0.125rem 0.125rem #ffffff80;
+    box-shadow: 0 0 0.125rem 0.125rem var(--primary-shadow-color);
     overflow: hidden;
 }
 
 .card__header,
 .card__footer {
-    background-color: #00000080;
+    background-color: var(--reverse-primary-shadow-color);
     padding: 0.5rem 1rem;
 }
 
 .card__body {
-    background-color: #00000040;
+    background-color: var(--reverse-secondary-shadow-color);
     padding: 1rem;
 }
 

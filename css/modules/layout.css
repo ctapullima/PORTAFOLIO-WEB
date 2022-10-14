@@ -1,0 +1,25 @@
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.elements {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.section--hero {
+    display: flex;
+    align-items: center;
+    background-image: url("https://i.postimg.cc/7PJV8Dp8/react-01-01-wpo.webp");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+

@@ -8,7 +8,7 @@
 
 .menu__link {
     color: var(--primary-text-color);
-    font-weight: 700;
+    font-weight: 600;
     text-decoration: none;
     transition: color 0.25s;
 }

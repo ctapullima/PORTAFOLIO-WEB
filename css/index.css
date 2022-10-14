@@ -3,6 +3,7 @@
 @import'./modules/nav.css';
 @import'./modules/menu.css';
 @import'./modules/cards.css';
+@import'./modules/buttons.css';
 
 .body {
   background-color: #20232a;

@@ -1,0 +1,25 @@
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.button {
+    background-color: #61dafb;
+    border: 0.0625rem solid#61dafb;
+    border-radius: 0.5rem;
+    color: black;
+    font-weight: 700;
+    font-size: 0.875rem;
+    font-family: monospace;
+    text-decoration: none;
+    padding: 0.25em 1em;
+    cursor: pointer;
+}
+
+@media (min-width:768px) {
+    .button {
+        font-size: 1rem;
+
+    }
+
+}

@@ -2,6 +2,13 @@
     border-radius: 0.5rem;
     box-shadow: 0 0 0.125rem 0.125rem var(--primary-shadow-color);
     overflow: hidden;
+    transition: box-shadow 0.25s;
+}
+
+.card:hover{
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.125rem 0.125rem var(--primary-highlight-color);
+    overflow: hidden;
 }
 
 .card__header,
@@ -22,7 +29,7 @@
 }
 
 .card__subtitle {
-    font-weight: 900;
+    font-weight: 800;
     font-size: 1rem;
     margin: 0;
 }

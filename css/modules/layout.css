@@ -16,7 +16,7 @@
 .elements--hero {
 	display: grid;
     align-items: center;
-/*     justify-content: center; */
+    justify-content: center;
 	grid-template-columns: 1fr;
 	gap: 2rem;
 }

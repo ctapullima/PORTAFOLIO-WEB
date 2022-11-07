@@ -16,7 +16,7 @@
 	bottom: 0;
 	left: 0;
 	margin: 0;
-
+    animation: spin 5s linear 0s infinite; /* aqui hace que gire los iconos (html,css.javaScript,react */
 }
 
 .hero-img_decorator{

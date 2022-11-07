@@ -1,3 +1,4 @@
+@import'./modules/animaciones.css';
 @import'./modules/variables.css';
 @import'./modules/layout.css';
 @import'./modules/header.css';
@@ -6,6 +7,7 @@
 @import'./modules/cards.css';
 @import'./modules/buttons.css';
 @import'./modules/hero.css';
+
 
 .body {
   background-color: var(--primary-theme-color);

@@ -4,6 +4,10 @@
 	padding-bottom: 1rem;
 }
 
+.nav--open {
+	--translate-x-menu: 0;
+}
+
 .nav__logo {
 	display: block;
 	border-radius: 50%;

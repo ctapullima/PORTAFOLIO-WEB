@@ -1,5 +1,6 @@
-const menu = document.getElementById("navIconMenu");
+const navIconMenu = document.getElementById('navIconMenu');
+const nav = document.querySelector('.nav');
 
-menu.addEventListener("click", () => {
-	alert("Hola Mundo");
+navIconMenu.addEventListener("click", () => {
+	nav.classList.toggle('nav--open');
 });
